@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAKEUP LISA | Official VENN Partner</title>
+    <!-- 1. 修改浏览器标签标题 -->
+    <title>VENN | Official Partner</title>
     <!-- 引入高端字体 -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -13,13 +14,13 @@
         
         /* 导航栏 */
         nav { position: fixed; top: 0; width: 100%; padding: 30px 5%; display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.98); z-index: 1000; border-bottom: 1px solid #eee; }
-        .logo { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 400; letter-spacing: 3px; text-decoration: none; color: var(--text); }
+        .logo { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 400; letter-spacing: 3px; text-decoration: none; color: var(--text); text-transform: uppercase; }
         .nav-links { display: flex; list-style: none; }
         .nav-links li { margin-left: 40px; }
         .nav-links a { text-decoration: none; color: var(--text); font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; transition: 0.3s; font-weight: 400; }
         .nav-links a:hover { color: var(--accent); }
 
-        /* Hero 主视觉区域 - 使用了你提供的高级图 */
+        /* Hero 主视觉区域 */
         .hero { 
             height: 100vh; 
             display: flex; 
@@ -27,7 +28,7 @@
             padding: 0 10%; 
             background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), 
                         url('https://i.postimg.cc/TY81mqKF/photo-1-2026-04-19-04-28-09.jpg') center/cover no-repeat;
-            background-attachment: fixed; /* 视差滚动效果，增加高级感 */
+            background-attachment: fixed; 
         }
         .hero-text { max-width: 650px; color: #fff; text-shadow: 0 2px 10px rgba(0,0,0,0.2); }
         .hero-text span { font-size: 11px; letter-spacing: 5px; text-transform: uppercase; margin-bottom: 25px; display: block; font-weight: 600; color: rgba(255,255,255,0.9); }
@@ -54,7 +55,7 @@
         .featured-intro h2 { font-family: 'Playfair Display', serif; font-size: 38px; margin-bottom: 30px; font-weight: 400; }
         .featured-intro p { max-width: 700px; margin: 0 auto; color: #666; font-size: 16px; font-weight: 300; }
 
-        /* 页脚 - 你的核心信息 */
+        /* 页脚 */
         footer { padding: 120px 10% 60px; background: #000; color: white; text-align: center; }
         .footer-tagline { font-size: 11px; letter-spacing: 4px; color: #888; text-transform: uppercase; margin-bottom: 30px; display: block; }
         .footer-email { font-family: 'Playfair Display', serif; font-size: clamp(1.5rem, 4vw, 3rem); color: white; text-decoration: none; display: block; border-bottom: 1px solid #333; padding-bottom: 30px; margin-bottom: 50px; transition: 0.4s; font-style: italic; }
@@ -64,7 +65,7 @@
         /* 移动端适配 */
         @media (max-width: 768px) {
             nav { padding: 20px 5%; }
-            .nav-links { display: none; } /* 移动端隐藏菜单，保持极简 */
+            .nav-links { display: none; } 
             .hero { padding: 0 5%; text-align: center; justify-content: center; background-attachment: scroll; }
             .hero-text h1 { font-size: 3rem; }
             .featured-intro { padding: 80px 5%; }
@@ -74,7 +75,8 @@
 <body>
 
     <nav>
-        <a href="index.html" class="logo">MAKEUP LISA</a>
+        <!-- 2. 修改左上角 Logo -->
+        <a href="index.html" class="logo">VENN</a>
         <ul class="nav-links">
             <li><a href="collection.html">Collection</a></li>
             <li><a href="philosophy.html">Philosophy</a></li>
@@ -95,4 +97,15 @@
         <h2>The Art of Efficiency</h2>
         <p>Our partnership with VENN brings you the most efficient, multi-correctional skincare solutions. Driven by results, backed by science, and designed for those who demand excellence without complexity.</p>
         <br><br>
-        <a href="philosophy.html" style="color
+        <a href="philosophy.html" style="color: #000; text-transform: uppercase; font-size: 11px; letter-spacing: 2px; text-decoration: none; border-bottom: 1px solid #000; padding-bottom: 5px;">Learn More</a>
+    </section>
+
+    <footer>
+        <span class="footer-tagline">Experience the Future of Skincare</span>
+        <a href="mailto:lisa1987lisabeautysource.com@lisabeautysource.com" class="footer-email">lisa1987lisabeautysource.com@lisabeautysource.com</a>
+        <!-- 3. 修改页脚版权信息 -->
+        <div class="copyright">© 2026 VENN. ALL RIGHTS RESERVED.</div>
+    </footer>
+
+</body>
+</html>
